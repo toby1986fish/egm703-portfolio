@@ -1,0 +1,16 @@
+name: egm703
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - geopandas
+  - cartopy
+  - jupyterlab
+  - ipywidgets
+  - ipympl
+  - rasterio
+  - rasterstats=0.14.0
+  - spectral
+  - xarray
+  - netcdf4
