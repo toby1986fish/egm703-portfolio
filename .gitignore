@@ -1,0 +1,25 @@
+# --- Python / Notebooks ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.ipynb_checkpoints/
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- ArcGIS / GIS artefacts ---
+*.aux.xml
+*.ovr
+*.lock
+
+# --- Keep big data local (OK in your repo folder, but not committed) ---
+data/**/*.tif
+data/**/*.tiff
+data/**/*.img
+data/**/*.jp2
+data/**/*.ecw
+data/**/*.sid
+data/**/*.zip
